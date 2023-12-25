@@ -11,3 +11,4 @@ java -jar target/*.jar
 
 ls
 
+asar
