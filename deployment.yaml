@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: java-app
-        image: arunmagi/java-app
+        image: asarudeen/java-2
         ports:
         - containerPort: 8080
 ---
@@ -22,7 +22,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: java-app
+  name: java-2
 spec:
   selector:
     app: java-app
